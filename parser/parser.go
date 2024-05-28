@@ -7,7 +7,7 @@ import (
 	"monkey/token"
 )
 
-// defines precedence from 1-7
+// defines precedence from 1-7, iota is unused
 const (
 	_int = iota
 	LOWEST
