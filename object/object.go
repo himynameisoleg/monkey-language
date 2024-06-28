@@ -14,7 +14,7 @@ const (
 
 type Object interface {
 	Type() ObjectType
-	Inpect() string
+	Inspect() string
 }
 
 type Integer struct {
